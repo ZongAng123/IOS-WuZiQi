@@ -1,0 +1,15 @@
+//
+//  CheckerboardView.h
+//  ios五子棋
+//
+//  Created by 纵昂 on 2017/3/18.
+//  Copyright © 2017年 纵昂. All rights reserved.
+//
+
+#import <UIKit/UIKit.h>
+
+@interface CheckerboardView : UIView
+- (void)backOneStep:(UIButton *)sender;
+- (void)newGame;
+- (void)changeBoardLevel;
+@end

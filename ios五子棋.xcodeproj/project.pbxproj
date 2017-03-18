@@ -15,6 +15,8 @@
 		74D415151E7CC1AB00AA2D28 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74D415131E7CC1AB00AA2D28 /* LaunchScreen.storyboard */; };
 		74D415201E7CC1AB00AA2D28 /* ios___Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 74D4151F1E7CC1AB00AA2D28 /* ios___Tests.m */; };
 		74D4152B1E7CC1AB00AA2D28 /* ios___UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 74D4152A1E7CC1AB00AA2D28 /* ios___UITests.m */; };
+		74D4153B1E7CC1FE00AA2D28 /* CheckerboardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 74D4153A1E7CC1FE00AA2D28 /* CheckerboardView.m */; };
+		74D4153E1E7CC21B00AA2D28 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 74D4153D1E7CC21B00AA2D28 /* UIView+Frame.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		74D415261E7CC1AB00AA2D28 /* ios五子棋UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ios五子棋UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		74D4152A1E7CC1AB00AA2D28 /* ios___UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "ios___UITests.m"; sourceTree = "<group>"; };
 		74D4152C1E7CC1AB00AA2D28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		74D415391E7CC1FE00AA2D28 /* CheckerboardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CheckerboardView.h; sourceTree = "<group>"; };
+		74D4153A1E7CC1FE00AA2D28 /* CheckerboardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CheckerboardView.m; sourceTree = "<group>"; };
+		74D4153C1E7CC21B00AA2D28 /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
+		74D4153D1E7CC21B00AA2D28 /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +107,7 @@
 		74D415041E7CC1AB00AA2D28 /* ios五子棋 */ = {
 			isa = PBXGroup;
 			children = (
+				74D415381E7CC1E300AA2D28 /* Checkerboard */,
 				74D415081E7CC1AB00AA2D28 /* AppDelegate.h */,
 				74D415091E7CC1AB00AA2D28 /* AppDelegate.m */,
 				74D4150B1E7CC1AB00AA2D28 /* ViewController.h */,
@@ -138,6 +145,17 @@
 				74D4152C1E7CC1AB00AA2D28 /* Info.plist */,
 			);
 			path = "ios五子棋UITests";
+			sourceTree = "<group>";
+		};
+		74D415381E7CC1E300AA2D28 /* Checkerboard */ = {
+			isa = PBXGroup;
+			children = (
+				74D415391E7CC1FE00AA2D28 /* CheckerboardView.h */,
+				74D4153A1E7CC1FE00AA2D28 /* CheckerboardView.m */,
+				74D4153C1E7CC21B00AA2D28 /* UIView+Frame.h */,
+				74D4153D1E7CC21B00AA2D28 /* UIView+Frame.m */,
+			);
+			name = Checkerboard;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -271,7 +289,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				74D4150D1E7CC1AB00AA2D28 /* ViewController.m in Sources */,
+				74D4153B1E7CC1FE00AA2D28 /* CheckerboardView.m in Sources */,
 				74D4150A1E7CC1AB00AA2D28 /* AppDelegate.m in Sources */,
+				74D4153E1E7CC21B00AA2D28 /* UIView+Frame.m in Sources */,
 				74D415071E7CC1AB00AA2D28 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
